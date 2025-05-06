@@ -6,11 +6,12 @@ import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import Dishes from "./components/Dishes";
 import Reviews from "./components/Review";
-import Review from "./components/Review";
+import CartScreen from "./components/CartScreen"; // 👈 Cart screen
+import { CartProvider } from "./context/CartContext";
 
 const App = () => {
   return (
-    <div>
+    <CartProvider>
       <Navbar />
 
       <main>
@@ -31,12 +32,17 @@ const App = () => {
         </div>
 
         <div id="review">
-          <Review />
+          <Reviews />
+        </div>
+
+        <div id="cart">
+          <CartScreen /> {/* 👈 Cart screen included here */}
         </div>
       </main>
 
       <Footer />
-    </div>
+      
+    </CartProvider>
   );
 };
 

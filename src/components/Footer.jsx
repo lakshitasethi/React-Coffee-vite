@@ -35,12 +35,12 @@ const Footer = () => {
             >
               Menu
             </a>
-            <a
+            {/* <a
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
               Reviews
-            </a>
+            </a> */}
           </nav>
         </div>
         <div>
@@ -67,13 +67,13 @@ const Footer = () => {
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
-              FoodieWeb@email.com
+              lakshitasethi@gmail.com
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
               href="/"
             >
-              +64 958 248 966
+              +91 9116336229
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
@@ -86,11 +86,11 @@ const Footer = () => {
       </div>
       <div>
         <p>
-          <p className=" text-center py-4">
+          {/* <p className=" text-center py-4">
             @copyright developed by
             <span className=" text-brightColor"> champion programmers</span> |
             All rights reserved
-          </p>
+          </p> */}
         </p>
       </div>
     </div>

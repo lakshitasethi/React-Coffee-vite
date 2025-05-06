@@ -12,17 +12,15 @@ const About = () => {
           Why Choose Us?
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-          architecto quisquam delectus minima perferendis nulla quia nisi
-          laborum, exercitationem cum quo accusantium, impedit sed. Dicta, quo
-          molestias omnis reprehenderit quae animi? Explicabo quasi accusamus
-          laboriosam temporibus delectus, aut a? Quasi?
+        At our cafe, it's not just about drinks—it's about delivering moments of joy 
+        in every sip. We blend the finest handpicked coffee beans and the freshest ingredients 
+        to craft beverages that awaken your senses and warm your soul. Whether you're 
+        craving the bold aroma of freshly brewed coffee or the creamy indulgence of our 
+        signature shakes, we’ve got something to match every mood. Passion drives our process, 
+        quality defines our taste, and satisfaction is our promise. Choose us for a drink that’s 
+        more than just refreshment—it’s an experience.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi,
-          suscipit reiciendis accusamus recusandae eum aspernatur pariatur odit
-          veritatis facere. Magnam!
-        </p>
+      
         <div className=" flex justify-center lg:justify-start">
           <Button title="Learn More" />
         </div>
