@@ -34,10 +34,10 @@ const CartScreen = () => {
 
   return (
     <div className="p-8">
-      <h2 className="text-3xl font-bold mb-6">Your Cart</h2>
+      <h2 className="text-3xl font-bold mb-6"></h2>
 
       {cartItems.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p></p>
       ) : (
         <>
           <ul className="space-y-4">

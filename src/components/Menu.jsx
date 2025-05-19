@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useState } from "react";
 
 const DishesCard = ({ img, title, price, description, category, rating, discount }) => {
@@ -61,11 +62,11 @@ const DishesCard = ({ img, title, price, description, category, rating, discount
           <div className="flex items-center space-x-2">
             {discount ? (
               <>
-                <span className="text-2xl font-bold text-green-600">${Math.round(price * (1 - discount / 100))}</span>
-                <span className="text-lg text-gray-400 line-through">${price}</span>
+                <span className="text-2xl font-bold text-green-600">₹{Math.round(price * (1 - discount / 100))}</span>
+                <span className="text-lg text-gray-400 line-through">₹{price}</span>
               </>
             ) : (
-              <span className="text-2xl font-bold text-gray-800">${price}</span>
+              <span className="text-2xl font-bold text-gray-800">₹{price}</span>
             )}
           </div>
           

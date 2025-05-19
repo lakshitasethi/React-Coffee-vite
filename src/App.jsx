@@ -31,12 +31,12 @@ const App = () => {
           <Menu />
         </div>
 
-        <div id="review">
+        {/* <div id="review">
           <Reviews />
-        </div>
+        </div> */}
 
         <div id="cart">
-          <CartScreen /> {/* 👈 Cart screen included here */}
+          <CartScreen /> 
         </div>
       </main>
 

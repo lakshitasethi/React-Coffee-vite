@@ -333,7 +333,7 @@ const Navbar = () => {
             </Link>
 
             {/* Cart Icon */}
-            <Link
+            {/* <Link
               to="cart"
               spy={true}
               smooth={true}
@@ -341,7 +341,7 @@ const Navbar = () => {
               className="hover:text-brightColor transition-all cursor-pointer"
             >
               <AiOutlineShoppingCart size={25} />
-            </Link>
+            </Link> */}
           </nav>
 
           <div className="md:hidden flex items-center">
@@ -411,7 +411,7 @@ const Navbar = () => {
           </Link>
 
           {/* Cart Icon in mobile menu */}
-          <Link
+          {/* <Link
             to="cart"
             spy={true}
             smooth={true}
@@ -423,7 +423,7 @@ const Navbar = () => {
               <AiOutlineShoppingCart size={24} />
               <span>Cart</span>
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>
